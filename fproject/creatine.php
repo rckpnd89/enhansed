@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <title>ENHANSED</title>
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet" />
+  <link href="css/style.css" rel="stylesheet" />
+  
+</head>
+
+<body>
+  <div class="first_area alt_pages">
+   <header class="header_section">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg custom_nav-container pt-3">
+          <a class="navbar-brand" href="index.php">
+            <img src="images/logo1.png" alt="" /><span>
+              En<font color="E5CA2F">hans</font>ed
+            </span>
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent"
+            aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarContent">
+            <div class="d-flex ml-auto flex-column flex-lg-row align-items-center">
+              <ul class="navbar-nav  ">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.php">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="best.php"> Best Sellers</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="product.php"> Products </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.php">Contact us</a>
+                </li>
+              </ul>
+                <button class="btn  my-2 my-sm-0 nav_search-btn"></button>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+  </div>
+
+  <section class="best_section layout_padding-top">
+    <div class="container">
+      <h2 class="custom_heading">Creatines</h2>
+      <p class="custom_heading-text">
+        Creatine is the top sports performance supplement available in the market. Creatine is found throughout the body, with 95% being stored in the muscles. 
+		There it provides increased energy for high-intensity exercise. You can also obtain it from meat and fish and can also be produced in the body from amino acids.
+      </p>
+      <div class="row layout_padding2">
+        <div class="col-md-8">
+          <div class="best_detail-box">
+            <h3>
+              Gaspari Pure Creatine Monohydrate
+            </h3>
+            <p class="mt-4 mb-5">
+              <strong>PURE CREATINE MONOHYDRATE</strong><br/>
+            </p>
+			<ul>
+			<li>2 MONTH SUPPLY</li>
+			<li>5g PURE CREATINE</li>
+			<li>SIGNIFICANTLY BOOST MUSCLE SIZE & STRENGTH</li>
+			<li>INCREASE POWER & ANAEROBIC ENDURANCE</li>
+			<li>ANTI-OXIDANT SUPPORT</li>
+			<li>UNFLAVORED & MIXES INSTANTLY</li>
+			</ul>
+			<p class="mt-4 mb-5">₱1,350.00</p>
+            <div><button class="custom_yellow-btn" data-target="#buyme" data-toggle="modal">Order</button></div>
+			  <div class="modal fade" id="buyme">
+			    <div class="modal-dialog">
+				    <div class="modal-content">
+					    <div class="modal-header">
+						    <button class="close" data-dismiss="modal">&times;</button>
+							<h2 class="modal-title" style="text-align: left;">Order Process</h2>
+						</div>
+						<div class="modal-body">
+						    <form>
+							   <div class="form-group">
+							       <input type="text" class="form-control input-lg" placeholder="Enter Name" required>
+							   </div>
+							   <div class="form-group">
+							       <input type="email" class="form-control input-lg" placeholder="Enter Email" required>
+							   </div>
+							   <div class="form-group">
+							       <input type="text" class="form-control input-lg" placeholder="Contact No." required>
+							   </div>
+							    <div class="form-group">
+							      <textarea class="form-control" rows="5" placeholder="Enter Address" style="font-size:20px color:black;"required></textarea>
+							   </div>
+							   
+							</form>						
+						</div>
+						<div class="modal-footer">
+						    <button class="custom_yellow-btn" data-dismiss="modal">Submit Order</button>						
+						</div>					
+					</div>				
+				</div>		  
+			  </div>
+          </div>
+        </div>
+        <div class="col-md-4 d-flex justify-content-center align-items-center">
+          <div class="best_img-box d-flex justify-content-center align-items-center">
+            <img src="images/gasp.png" alt="" class="" width="100%" />
+          </div>
+        </div>
+      </div>
+      <div class="row layout_padding2">
+        <div class="col-md-8">
+          <div class="best_detail-box">
+            <h3>
+              PROSUPPS PS Creagen Creatine Matrix
+            </h3>
+            <p class="mt-4 mb-5">
+             CreaGEN®️ is the only strength and recovery supplement that combines the power of Creatine with Betaine and β-Hydroxy β-methylbutyric acid (HMB) to help take your training to the next level. 
+			 Creatine is the most studied supplement on the market today and is proven to increase strength and muscle mass. Creatine and Betaine work synergistically to increase bioavailable creatine, 
+			 which supports cellular energy, strength and power output during resistance exercise. Obviously, we couldn’t stop there! HMB, a metabolite of the amino acid leucine enhances recovery by helping prevent muscle breakdown. 
+			 CreaGEN® is the perfect product for anyone looking for a quality creatine supplement to help increase their athletic performance.
+            </p>
+			<ul>
+			<li>Promotes Lean Muscle Growth, Repair & Recovery</li>
+			<li>Increases Strength & Power Output for Peak Performance</li>
+			<li>Enhances Exercise Endurance & Energy Production</li>
+			<li>Powered by HMB</li>
+			<li>Zero Sugar, Zero Carbs, Zero Calories, Zero Artificial ColorsT</li>
+			<li>Informed-Choice® Certified. Banned Substance Tested</li>
+			</ul>
+			<p class="mt-4 mb-5">₱1,200.00</p>
+            <div><button class="custom_yellow-btn" data-target="#buyme" data-toggle="modal">Order</button></div>
+			  <div class="modal fade" id="buyme">
+			    <div class="modal-dialog">
+				    <div class="modal-content">
+					    <div class="modal-header">
+						    <button class="close" data-dismiss="modal">&times;</button>
+							<h2 class="modal-title" style="text-align: left;">Order Process</h2>
+						</div>
+						<div class="modal-body">
+						    <form>
+							   <div class="form-group">
+							       <input type="text" class="form-control input-lg" placeholder="Enter Name" required>
+							   </div>
+							   <div class="form-group">
+							       <input type="email" class="form-control input-lg" placeholder="Enter Email" required>
+							   </div>
+							   <div class="form-group">
+							       <input type="text" class="form-control input-lg" placeholder="Contact No." required>
+							   </div>
+							    <div class="form-group">
+							      <textarea class="form-control" rows="5" placeholder="Enter Address" style="font-size:20px color:black;"required></textarea>
+							   </div>
+							   
+							</form>						
+						</div>
+						<div class="modal-footer">
+						    <button class="custom_yellow-btn" data-dismiss="modal">Submit Order</button>						
+						</div>					
+					</div>				
+				</div>		  
+			  </div>
+          </div>
+        </div>
+        <div class="col-md-4 d-flex justify-content-center align-items-center">
+          <div class="best_img-box d-flex justify-content-center ">
+            <img src="images/prosup.png" alt="" class="" width="100%" />
+          </div>
+        </div>
+      </div>
+	   <div class="row layout_padding2">
+        <div class="col-md-8">
+          <div class="best_detail-box">
+            <h3>
+              ON Micronized Creatine powder
+            </h3>
+            <p class="mt-4 mb-5">
+              Each Serving supplies a full 5 grams (5000 mg) of 99.9% pure CreaPure™ brand Creatine Monohydrate. 
+			  The patented production method used to produce this creatine yields a tasteless, 
+			  odorless powder that mixes easily into water or juice, and does not readily settle to the bottom. 
+			  As a result, the gritty taste or texture you may have experienced with other creatine powders is not associated with this product.
+            </p>
+			<p class="mt-4 mb-5">₱2,010.00</p>
+            <div><button class="custom_yellow-btn" data-target="#buyme" data-toggle="modal">Order</button></div>
+			  <div class="modal fade" id="buyme">
+			    <div class="modal-dialog">
+				    <div class="modal-content">
+					    <div class="modal-header">
+						    <button class="close" data-dismiss="modal">&times;</button>
+							<h2 class="modal-title" style="text-align: left;">Order Process</h2>
+						</div>
+						<div class="modal-body">
+						    <form>
+							   <div class="form-group">
+							       <input type="text" class="form-control input-lg" placeholder="Enter Name" required>
+							   </div>
+							   <div class="form-group">
+							       <input type="email" class="form-control input-lg" placeholder="Enter Email" required>
+							   </div>
+							   <div class="form-group">
+							       <input type="text" class="form-control input-lg" placeholder="Contact No." required>
+							   </div>
+							    <div class="form-group">
+							      <textarea class="form-control" rows="5" placeholder="Enter Address" style="font-size:20px color:black;"required></textarea>
+							   </div>
+							   
+							</form>						
+						</div>
+						<div class="modal-footer">
+						    <button class="custom_yellow-btn" data-dismiss="modal">Submit Order</button>						
+						</div>					
+					</div>				
+				</div>		  
+			  </div>
+          </div>
+        </div>
+        <div class="col-md-4 d-flex justify-content-center align-items-center">
+          <div class="best_img-box d-flex justify-content-center ">
+            <img src="images/on.png" alt="" class="" width="100%" />
+          </div>
+        </div>
+      </div>
+      <div class="row layout_padding2-top layout_padding-bottom">
+        <div class="col-md-8">
+          <div class="best_detail-box">
+            <h3>
+              FINAFLEX Pure Creatine Ultimate Muscular performance
+            </h3>
+            <p class="mt-4 mb-5">
+             <strong>FINAFLEX PURE CREATINE</strong> is an Ultimate Muscular Performance Product designed for both Men & Women to help promote muscular strength, size, and performance! 
+			 <strong>PURE CREATINE</strong> is built with 100% Pure Creatine Monohydrate and features a formula that is free from fillers, additives, and artificial ingredients. 
+			 Unlike other products, <strong>PURE CREATINE</strong> delivers a refined, clean, unadulterated dose of the highest quality Creatine available on the market today! 
+			 Did you know that Creatine Monohydrate is the most heavily researched dietary supplement with countless studies showing its effectiveness? 
+			 <strong>PURE CREATINE</strong> delivers real results in every dose, helping you reach your fitness and lifestyle goals! Trust <strong>PURE CREATINE</strong> to help you <strong>REDEFINE YOURSELF.</strong> 
+            </p>
+			<p class="mt-4 mb-5">₱2,350.00 (500G)</p>
+            <div><button class="custom_yellow-btn" data-target="#buyme" data-toggle="modal">Order</button></div>
+			  <div class="modal fade" id="buyme">
+			    <div class="modal-dialog">
+				    <div class="modal-content">
+					    <div class="modal-header">
+						    <button class="close" data-dismiss="modal">&times;</button>
+							<h2 class="modal-title" style="text-align: left;">Order Process</h2>
+						</div>
+						<div class="modal-body">
+						    <form>
+							   <div class="form-group">
+							       <input type="text" class="form-control input-lg" placeholder="Enter Name" required>
+							   </div>
+							   <div class="form-group">
+							       <input type="email" class="form-control input-lg" placeholder="Enter Email" required>
+							   </div>
+							   <div class="form-group">
+							       <input type="text" class="form-control input-lg" placeholder="Contact No." required>
+							   </div>
+							    <div class="form-group">
+							      <textarea class="form-control" rows="5" placeholder="Enter Address" style="font-size:20px color:black;"required></textarea>
+							   </div>
+							   
+							</form>						
+						</div>
+						<div class="modal-footer">
+						    <button class="custom_yellow-btn" data-dismiss="modal">Submit Order</button>						
+						</div>					
+					</div>				
+				</div>		  
+			  </div>
+          </div>
+        </div>
+        <div class="col-md-4 d-flex justify-content-center align-items-center">
+          <div class="best_img-box d-flex justify-content-center align-items-center">
+            <img src="images/pure.png" alt="" class="" width="100%" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+ <section class="tag_section layout_padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <h5>
+            Best Sellers
+          </h5>
+          <ul>
+            <li>
+              <a href="best.php">Performax Labs Hyper Max Preworkout</a>
+            </li>
+            <li>
+              <a href="best.php">USN BlueLab 100% Whey</a>
+            </li>
+            <li>
+             <a href="best.php">Optimum Nutrition Opti-Men Multivitamin</a>
+            </li>
+            <li>
+              <a href="best.php">Gaspari Pure Creatine Monohydrate</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h5>
+            Products
+          </h5>
+          <ul>
+            <li>
+             <h4><a href="preworkout.php">Pre-Workouts</a></h4>
+            </li>
+            <li>
+               <h4><a href="multi.php">Multivitamins</a></h4>
+            </li>
+            <li>
+              <h4><a href="bcaa.php">BCAAs</a></h4>
+            </li>
+            <li>
+               <h4><a href="creatine.php">Creatines</a></h4>
+            </li>
+            <li>
+             <h4><a href="protein.php">Proteins</a></h4>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h5>
+           Contact Persons
+          </h5>
+          <ul>
+            <li>
+             +63 45 488 1472
+			 <p>LeBron Batumbakal</p>
+            </li>
+            <li>
+              +63 45 906 9024
+			 <p>Charles Dimalamangan</p>
+            </li>
+            <li>
+             +63 45 830 8642
+			 <p>Jamal Trinidad</p>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <div class="social_container">
+            <h5>
+              Follow Us
+            </h5>
+            <div class="social-box">
+              <a href="">
+                <img src="images/fb.png" alt="">
+              </a>
+
+              <a href="">
+                <img src="images/twitter.png" alt="">
+              </a>
+              <a href="">
+                <img src="images/linkedin.png" alt="">
+              </a>
+              <a href="">
+                <img src="images/instagram.png" alt="">
+              </a>
+            </div>
+          </div>
+          <div class="subscribe_container">
+            <h5>
+              Keep You Updated
+            </h5>
+            <div class="form_container">
+              <form action="">
+                <input type="email">
+                <button type="submit">
+                  Subscribe
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="container-fluid footer_section">
+    <p>
+      2022 All Rights Copyright &copy; Reserved to <strong> Hans Patrick I. Pendon (Coder)</strong>
+    </p>
+  </section>
+
+</body>
+
+</html>

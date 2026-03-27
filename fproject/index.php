@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <title>ENHANSED</title>
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet" />
+  <link href="css/style.css" rel="stylesheet" />
+  
+</head>
+
+<body>
+  <div class="first_area">
+    <header class="header_section">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg custom_nav-container pt-3">
+          <a class="navbar-brand" href="index.php">
+            <img src="images/logo1.png" alt="" /><span>
+              En<font color="E5CA2F">hans</font>ed
+            </span>
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent"
+            aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarContent">
+            <div class="d-flex ml-auto flex-column flex-lg-row align-items-center">
+              <ul class="navbar-nav  ">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.php">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="best.php"> Best Sellers</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="product.php"> Products </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.php">Contact us</a>
+                </li>
+              </ul>
+                <button class="btn  my-2 my-sm-0 nav_search-btn"></button>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    
+	<section class=" slider_section position-relative">
+      <div id="carouselControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="slider_item-box">
+              <div class="slider_item-container">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="slider_item-detail">
+                        <div>
+                          <h2>
+                            Welcome to Our <br/>
+                            Supplement Shop
+                          </h2>
+                          <p>
+                            Need a boost for your workout? Protein intake not enough?
+							Maybe you just want to help your overall health? We have
+							what you need right here! 
+                          </p>
+                          <div class="d-flex">
+                            <a href="" class="text-uppercase custom_purple-btn mr-3">
+                              Shop Now
+                            </a>
+                            <a href="contact.php" class="text-uppercase custom_yellow-btn">
+                              Contact Us
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="slider_img-box">
+                        <div>
+                          <img src="images/smooth.png" alt="" class="" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="slider_item-box">
+              <div class="slider_item-container">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="slider_item-detail">
+                        <div>
+                          <h2>
+                            Choose From <br />
+                            Great Products & Best Sellers
+                          </h2>
+                          <p>
+                            These supplements are used to enhance exercise performance for high-intensity, strenuous physical activity, such as training to run a marathon or power lifting.
+                          </p>
+                          <div class="d-flex">
+                            <a href="product.php" class="text-uppercase custom_purple-btn mr-3">
+                              Products
+                            </a>
+                            <a href="best.php" class="text-uppercase custom_purple-btn mr-3">
+                              Best Sellers
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="slider_img-box">
+                        <div>
+                          <img src="images/smooth2.png" alt="" class="" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>       
+        </div>
+        <div class="custom_carousel-control">
+          <a class="carousel-control-prev" href="#carouselControls" role="button" data-slide="prev">
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselControls" role="button" data-slide="next">
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </div>
+  
+  <section class="product_section layout_padding ">
+    <div class="container">
+      <h2 class="custom_heading">Our Products</h2>
+      <p class="custom_heading-text">
+        Wide-range of essential supplements needed to help you reach your potential!
+      </p>
+      <div class=" layout_padding2">
+        <div class="card-deck">
+          <div class="card"><a href="preworkout.php">
+            <img class="card-img-top" src="images/pre.png" alt="Card image cap" />
+            <div class="card-body">
+              <h5 class="card-title">Pre-workout</h5>
+              <p class="card-text">
+			  Pre-workouts are multi-ingredient dietary formulas designed to boost your energy and athletic performance.
+              Supplement that’s designed to give gym goers an extra jolt of energy during their workout.
+              </p>
+            </div></a>
+          </div>
+          <div class="card"><a href="multi.php">
+            <img class="card-img-top" src="images/multi.png" alt="Card image cap" />
+            <div class="card-body">
+              <h5 class="card-title">Multivitamins</h5>
+              <p class="card-text">
+                supplements that contain a wide range of different vitamins and minerals. 
+				Some will also contain other nutrients such as friendly bacteria or ginseng.
+              </p>
+            </div></a>
+          </div>
+          <div class="card"><a href="creatine.php">
+            <img class="card-img-top" src="images/crea.png" alt="Card image cap" />
+            <div class="card-body">
+              <h5 class="card-title">Creatines</h5>
+              <p class="card-text">
+                improves strength, increases lean muscle mass, and helps the muscles recover more quickly during exercise. 
+				This muscular boost may help athletes achieve bursts of speed and energy, 
+				during short bouts of high-intensity activities.
+              </p>
+            </div></a>
+          </div>
+        </div>
+      </div>
+      <div class="d-flex justify-content-center">
+        <a href="product.php" class="custom_yellow-btn">
+          See More
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="best_section">
+    <div class="container">
+      <h2 class="custom_heading">Hot Right Now</h2>
+      <p class="custom_heading-text">
+         The best supplements whole year round!
+      </p>
+      <div class="row layout_padding2">
+        <div class="col-md-8">
+          <div class="best_detail-box">
+            <h3>
+              Performax Labs Hyper Max Preworkout
+            </h3>
+            <p class="mt-4 mb-5">
+             HyperMax has been firmly entrenched as one of the premier pre-workout supplements on the market, 
+			 delivering on all facets of pre-workout perfection -- energy, focus, pumps, and performance. 
+			 Over the years, we’ve made subtle tweaks and refinements to the formula to continue to provide the best pre-workout on the market, bar none. 
+			 The all-new HyperMax-3D retains all of the elements that catapulted it to the top-ranked pre-workout supplement along with the addition of some new agents to further enhance performance and pumps.
+            </p>
+			<p class="mt-4 mb-5">₱1,700.00</p>
+            <div><button class="custom_yellow-btn" data-target="#buyme" data-toggle="modal">Order</button></div>
+			  <div class="modal fade" id="buyme">
+			    <div class="modal-dialog">
+				    <div class="modal-content">
+					    <div class="modal-header">
+						    <button class="close" data-dismiss="modal">&times;</button>
+							<h2 class="modal-title" style="text-align: left;">Order Process</h2>
+						</div>
+						<div class="modal-body">
+						    <form>
+							   <div class="form-group">
+							       <input type="text" class="form-control input-lg" placeholder="Enter Name" required>
+							   </div>
+							   <div class="form-group">
+							       <input type="email" class="form-control input-lg" placeholder="Enter Email" required>
+							   </div>
+							   <div class="form-group">
+							       <input type="text" class="form-control input-lg" placeholder="Contact No." required>
+							   </div>
+							    <div class="form-group">
+							      <textarea class="form-control" rows="5" placeholder="Enter Address" style="font-size:20px color:black;"required></textarea>
+							   </div>
+							   
+							</form>						
+						</div>
+						<div class="modal-footer">
+						    <button class="custom_yellow-btn" data-dismiss="modal">Submit Order</button>						
+						</div>					
+					</div>				
+				</div>		  
+			  </div>
+          </div>
+        </div>
+        <div class="col-md-4 d-flex justify-content-center align-items-center">
+          <div class="best_img-box d-flex justify-content-center ">
+            <img src="images/hyper.png" alt="" class="" width="100%" />
+          </div>
+        </div>
+      </div>
+      <div class="row layout_padding2">
+        <div class="col-md-8">
+          <div class="best_detail-box">
+            <h3>
+              Optimum Nutrition Opti-Men Multivitamin
+            </h3>
+            <p class="mt-4 mb-5">
+              ON’s Nutrient Optimization System for active men stacks 75+ active ingredients into a 3-tablet serving you can take all at one meal or spread across meals throughout the day. 
+			  In addition to vitamins and essential minerals, the formula includes foundational amounts of botanical extracts that can be built on through consumption of a healthy, balanced diet. 
+			  Think of Opti-Men as nutritional insurance for your fit lifestyle.
+            </p>
+			<p class="mt-4 mb-5">₱2.716.95</p>
+            <div><button class="custom_yellow-btn" data-target="#buyme" data-toggle="modal">Order</button></div>
+			  <div class="modal fade" id="buyme">
+			    <div class="modal-dialog">
+				    <div class="modal-content">
+					    <div class="modal-header">
+						    <button class="close" data-dismiss="modal">&times;</button>
+							<h2 class="modal-title" style="text-align: left;">Order Process</h2>
+						</div>
+						<div class="modal-body">
+						    <form>
+							   <div class="form-group">
+							       <input type="text" class="form-control input-lg" placeholder="Enter Name" required>
+							   </div>
+							   <div class="form-group">
+							       <input type="email" class="form-control input-lg" placeholder="Enter Email" required>
+							   </div>
+							   <div class="form-group">
+							       <input type="text" class="form-control input-lg" placeholder="Contact No." required>
+							   </div>
+							    <div class="form-group">
+							      <textarea class="form-control" rows="5" placeholder="Enter Address" style="font-size:20px color:black;"required></textarea>
+							   </div>
+							   
+							</form>						
+						</div>
+						<div class="modal-footer">
+						    <button class="custom_yellow-btn" data-dismiss="modal">Submit Order</button>						
+						</div>					
+					</div>				
+				</div>		  
+			  </div>
+          </div>
+        </div>
+        <div class="col-md-4 d-flex justify-content-center align-items-center">
+          <div class="best_img-box d-flex justify-content-center align-items-center">
+            <img src="images/opti.png" alt="" class="" width="100%" />
+          </div>
+        </div>
+      </div>
+       <div class="row layout_padding2">
+        <div class="col-md-8">
+          <div class="best_detail-box">
+            <h3>
+              Gaspari Pure Creatine Monohydrate
+            </h3>
+            <p class="mt-4 mb-5">
+              <strong>PURE CREATINE MONOHYDRATE</strong><br/>
+            </p>
+			<ul>
+			<li>2 MONTH SUPPLY</li>
+			<li>5g PURE CREATINE</li>
+			<li>SIGNIFICANTLY BOOST MUSCLE SIZE & STRENGTH</li>
+			<li>INCREASE POWER & ANAEROBIC ENDURANCE</li>
+			<li>ANTI-OXIDANT SUPPORT</li>
+			<li>UNFLAVORED & MIXES INSTANTLY</li>
+			</ul>
+			<p class="mt-4 mb-5">₱1,350.00</p>
+            <div><button class="custom_yellow-btn" data-target="#buyme" data-toggle="modal">Order</button></div>
+			  <div class="modal fade" id="buyme">
+			    <div class="modal-dialog">
+				    <div class="modal-content">
+					    <div class="modal-header">
+						    <button class="close" data-dismiss="modal">&times;</button>
+							<h2 class="modal-title" style="text-align: left;">Order Process</h2>
+						</div>
+						<div class="modal-body">
+						    <form>
+							   <div class="form-group">
+							       <input type="text" class="form-control input-lg" placeholder="Enter Name" required>
+							   </div>
+							   <div class="form-group">
+							       <input type="email" class="form-control input-lg" placeholder="Enter Email" required>
+							   </div>
+							   <div class="form-group">
+							       <input type="text" class="form-control input-lg" placeholder="Contact No." required>
+							   </div>
+							    <div class="form-group">
+							      <textarea class="form-control" rows="5" placeholder="Enter Address" style="font-size:20px color:black;"required></textarea>
+							   </div>
+							   
+							</form>						
+						</div>
+						<div class="modal-footer">
+						    <button class="custom_yellow-btn" data-dismiss="modal">Submit Order</button>						
+						</div>					
+					</div>				
+				</div>		  
+			  </div>
+          </div>
+        </div>
+        <div class="col-md-4 d-flex justify-content-center align-items-center">
+          <div class="best_img-box d-flex justify-content-center align-items-center">
+            <img src="images/gasp.png" alt="" class="" width="100%" />
+          </div>
+        </div>
+      </div>
+	  <div class="d-flex justify-content-center">
+        <a href="best.php" class="custom_yellow-btn">
+          See More
+        </a>
+      </div>
+    </div>
+  </section>
+  
+<br>
+
+  <section class="client_section layout_padding">
+    <div class="container">
+      <h2 class="custom_heading">Client Ratings</h2>
+      <p class="custom_heading-text">
+        Hear from our loyal clients! We're Hoping to see your comments soon! 
+      </p>
+      <div>
+        <div id="carouselControls-2" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="client_container layout_padding2">
+                <div class="client_img-box">
+                  <img src="images/kawhi.png" alt="" />
+                </div>
+                <div class="client_detail">
+                  <h3>
+                    Kawhi Leonard
+                  </h3>
+                  <p class="custom_heading-text">
+                    Grabe ang bilis ng transaction! Bulk pa naman ako umorder. <br/> Ilang beses na ko bumibili dito at hindi pa ako nadisappoint!
+                  </p>
+				  <div style="text-align: center;">
+				  <span class="fa fa-star checked"></span>
+				  <span class="fa fa-star checked"></span>
+				  <span class="fa fa-star checked"></span>
+				  <span class="fa fa-star checked"></span>
+				  <span class="fa fa-star checked"></span>
+				  <p> (5) </p>
+				  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="client_container layout_padding2">
+                <div class="client_img-box">
+                  <img src="images/curry.png" alt="" />
+                </div>
+                <div class="client_detail">
+                  <h3>
+                    Stephen Curry
+                  </h3>
+                  <p class="custom_heading-text">
+                    Masarap lasa ng naorder kong protein noong nakaraan. Gusto ko matry ibang flavor sa susunod! <br/> Hoping na lumakas pa ang business para maraming bumili.
+                  </p>
+				  <div style="text-align: center;">
+				  <span class="fa fa-star checked"></span>
+				  <span class="fa fa-star checked"></span>
+				  <span class="fa fa-star checked"></span>
+				  <span class="fa fa-star checked"></span>
+				  <span class="fa fa-star checked"></span>
+				  <p> (5) </p>
+				  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="client_container layout_padding2">
+                <div class="client_img-box">
+                  <img src="images/lebron.png" alt="" />
+                </div>
+                <div class="client_detail">
+                  <h3>
+                    LeBron James
+                  </h3>
+                   <p class="custom_heading-text">
+                    Good quality supplements tsaka andaling umorder.<br/> Pati asawa ko gusto na din omorder ng marami dahil sa bilis ng process. Ang galing niyo!
+                  </p>
+				  <div style="text-align: center;">
+				  <span class="fa fa-star checked"></span>
+				  <span class="fa fa-star checked"></span>
+				  <span class="fa fa-star checked"></span>
+				  <span class="fa fa-star checked"></span>
+				  <span class="fa fa-star checked"></span>
+				  <p> (5) </p>
+				  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="custom_carousel-control">
+            <a class="carousel-control-prev" href="#carouselControls-2" role="button" data-slide="prev">
+              <span class="" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselControls-2" role="button" data-slide="next">
+              <span class="" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+ <section class="tag_section layout_padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <h5>
+            Best Sellers
+          </h5>
+          <ul>
+            <li>
+              <a href="best.php">Performax Labs Hyper Max Preworkout</a>
+            </li>
+            <li>
+              <a href="best.php">USN BlueLab 100% Whey</a>
+            </li>
+            <li>
+             <a href="best.php">Optimum Nutrition Opti-Men Multivitamin</a>
+            </li>
+            <li>
+              <a href="best.php">Gaspari Pure Creatine Monohydrate</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h5>
+            Products
+          </h5>
+          <ul>
+            <li>
+             <h4><a href="preworkout.php">Pre-Workouts</a></h4>
+            </li>
+            <li>
+               <h4><a href="multi.php">Multivitamins</a></h4>
+            </li>
+            <li>
+              <h4><a href="bcaa.php">BCAAs</a></h4>
+            </li>
+            <li>
+               <h4><a href="creatine.php">Creatines</a></h4>
+            </li>
+            <li>
+             <h4><a href="protein.php">Proteins</a></h4>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h5>
+           Contact Persons
+          </h5>
+          <ul>
+            <li>
+             +63 45 488 1472
+			 <p>LeBron Batumbakal</p>
+            </li>
+            <li>
+              +63 45 906 9024
+			 <p>Charles Dimalamangan</p>
+            </li>
+            <li>
+             +63 45 830 8642
+			 <p>Jamal Trinidad</p>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <div class="social_container">
+            <h5>
+              Follow Us
+            </h5>
+            <div class="social-box">
+              <a href="">
+                <img src="images/fb.png" alt="">
+              </a>
+
+              <a href="">
+                <img src="images/twitter.png" alt="">
+              </a>
+              <a href="">
+                <img src="images/linkedin.png" alt="">
+              </a>
+              <a href="">
+                <img src="images/instagram.png" alt="">
+              </a>
+            </div>
+          </div>
+          <div class="subscribe_container">
+            <h5>
+              Keep You Updated
+            </h5>
+            <div class="form_container">
+              <form action="">
+                <input type="email">
+                <button type="submit">
+                  Subscribe
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="container-fluid footer_section">
+    <p>
+      2022 All Rights Copyright &copy; Reserved to <strong> Hans Patrick I. Pendon (Coder)</strong>
+    </p>
+  </section>
+  
+</body>
+
+</html>
